@@ -1,0 +1,36 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Database & State
+instance/*.db
+instance/*.sqlite
+instance/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Saved Joblib / Model Weights (optional if large, but keep small baseline)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Secrets
+.env
+.env.local
+.env.*.local
+
+# Operating System & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
